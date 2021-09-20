@@ -18,6 +18,6 @@ cout<<" peas in each pod, then \n ";
 cout<<" You have ";
 cout<< total_peas;
 cout<< " peas in all the pod \n";
-getch ()
-return 0;
+getch (); //statem missing ;
+//return 0; not required
 }
