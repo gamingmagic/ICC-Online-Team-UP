@@ -15,6 +15,7 @@ cout<<" peas pod \n ";
 cout<<" and ";
 cout<< peas_per_pod;
 cout<<" peas in each pod, then \n ";
-cout<<" You have ",total_peas,"peas in all pod":;
+cout<<" You have "<<total_peas<<" peas in all pod";
 getch ();
+
 }
