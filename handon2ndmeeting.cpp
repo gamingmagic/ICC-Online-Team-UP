@@ -1,6 +1,6 @@
 #include<iostream.h>
 #include<conio.h>
-main()
+void main()
 {
 int number_of_pods, peas_per_pod, total_peas;
 clrscr();
@@ -15,9 +15,6 @@ cout<<" peas pod \n ";
 cout<<" and ";
 cout<< peas_per_pod;
 cout<<" peas in each pod, then \n ";
-cout<<" You have ";
-cout<< total_peas;
-cout<< " peas in all the pod \n";
-getch (); //statem missing ;
-//return 0; not required
+cout<<" You have ",total_peas,"peas in all pod":;
+getch ();
 }
