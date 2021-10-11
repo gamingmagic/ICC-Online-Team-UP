@@ -1,16 +1,4 @@
-<!--
-    /*
 
-    ** Copyright (c) JowieJesoro. All rights reserved.
-
-    *   Developed By Ark Crew
-    *   Software Company
-    *
-    *   https://www.ark-crew.com
-    **  contact@ark-crew.com 
-    
-    */
--->
 
 <?php
 require_once('functions/config.php');
