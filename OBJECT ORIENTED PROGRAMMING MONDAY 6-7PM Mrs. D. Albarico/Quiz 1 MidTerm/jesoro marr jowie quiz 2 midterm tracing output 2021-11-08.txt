@@ -1,0 +1,185 @@
+/* jesoro marr jowie
+cp 2021 - 2021-11-08
+1. Quiz 2 Midterm
+*/
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main() {
+    int tracingoutput;
+    cout << "Enter the number of Tracing  Output (1 ~ 15): ";
+    cin >> tracingoutput;
+	int a,b,c,d,e,f,g,h,i,x,m;
+
+    switch (tracingoutput) {
+        case 1:
+        	cout <<"Tracing Output Number 1.\n";
+			x = 10;
+			while (x > 0) {
+				
+  				cout << x << endl;
+  				x=x-3;
+			}
+			
+            break;
+        case 2:
+        	cout <<"Tracing Output Number 2.\n";
+            x=42;
+            do{
+            	 
+          		 cout<<x<<endl;
+         		 x=x-3;
+			}
+            while(x>0);
+            break;
+            
+        case 3:
+        	cout <<"Tracing Output Number 3.\n";
+        	x=0;
+          	while(x<0)
+          	{
+          		
+          		cout<<x<<endl;
+				x=x+3;
+			}
+			break;
+			
+        case 4:
+        	cout <<"Tracing Output Number 4.\n";
+            a=1;
+            while(a<10)
+            {
+            	
+            	cout<<a;
+            	a=+3;
+			}
+            break;
+        case 5:
+        	cout <<"Tracing Output Number 5.\n";
+        	b=10;
+        	while(b==10)
+        	{
+        		
+        		cout<<b<<endl;
+        		b=b-3;
+			}
+        	break;
+        	
+        case 6:
+        	cout <<"Tracing Output Number 6.\n";
+        	b=1;
+        	i=10;
+        	while(b<i)
+        	{
+
+        		cout<<b+i<<endl;
+        		b=b+2;
+			}
+        	break;
+        case 7:
+        	 cout <<"Tracing Output Number 7.\n";
+        	a=100;
+        	do
+        	{
+
+        		cout<<a;
+        		a=a-25;
+			}
+			while(a>-5);
+			break;
+		case 8:
+			cout <<"Tracing Output Number 8.\n";
+			a=5;
+			do
+			{
+
+				cout<<"ICC";
+				a=a+1*3;
+			}
+			while(a<=10);
+			break;
+		case 9:
+			cout <<"Tracing Output Number 9.\n";
+			a=50;
+			do
+			{
+
+				cout<<a<<endl;
+				a=a*3;
+			}
+			while(a<=5);
+			break;
+		case 10:
+			cout <<"Tracing Output Number 10.\n";
+			c=15;
+			do
+			{
+
+				cout<<c;
+				c--;
+			}
+			while(c==5);
+			break;
+		case 11:
+			cout <<"Tracing Output Number 11.\n";
+			c=6;
+			d=5;
+			while(c>1)
+			{
+				c=c-4;
+				d=c+c;
+
+				cout<<c+d<<endl;
+			}
+			break;
+		case 12:
+			cout <<"Tracing Output Number 12.\n";
+			m=0;
+			do
+			{	
+				
+				cout<<"ICC SLW"<<endl;
+				m=m*5;
+			}
+			while(m<10);
+
+			break;
+			
+		case 13:
+			cout <<"Tracing Output Number 13.\n";
+			x=1;
+			while(x<=10)
+			{
+				cout<<"ICC-BCR"<<endl;
+				x=x+3;
+			}
+			break;
+		case 14:
+			cout <<"Tracing Output Number 14.\n";
+			b=2;
+			while(b<=10)
+			{
+				cout<<"C++"<<endl;
+				b=b-2;
+			}
+			break;
+		case 15:
+			cout <<"Tracing Output Number 15.\n";
+			a=10;
+			b=2;
+			while(a<50)
+			{
+				cout<<a*b<<endl;
+				a=a*2;
+				
+			}
+			break;
+        default:
+            
+            cout << "The quiz is Only 1~15";
+            break;
+    }
+	getch();
+    return 0;
+}
